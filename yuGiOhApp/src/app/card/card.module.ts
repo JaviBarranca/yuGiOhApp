@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { ByAttributeComponent } from './pages/by-attribute/by-attribute.component';
 import { ByNameComponent } from './pages/by-name/by-name.component';
@@ -25,7 +26,8 @@ import { SeeCardComponent } from './pages/see-card/see-card.component';
     SeeCardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class CardModule { }
