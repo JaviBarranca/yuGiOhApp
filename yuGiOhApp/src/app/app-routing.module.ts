@@ -13,7 +13,7 @@ const routes: Routes = [
     {
         path: '',
         component: ByNameComponent,
-        pathMatch: 'full' //revisar
+        pathMatch: 'full' //Permite que no coincida con otras rutas por el espacio vacío al principio
     },
     {
         path: 'attribute',
@@ -41,7 +41,7 @@ const routes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(routes)
+        RouterModule.forRoot(routes) // forRoot para rutas principales
     ],
     exports: [
         RouterModule
