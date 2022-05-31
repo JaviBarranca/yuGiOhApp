@@ -4,14 +4,15 @@
     <div class="col">
         <app-input
             (onEnter)="search( $event )">
-
         </app-input>
     </div>
 </div>
 
+<hr>
+
 <div class="row">
     <div class="col">
-        <app-card-list>[cards]="cards"</app-card-list> <!--le envia la info a cardlist-->
+        <app-card-list [cards]="cards"></app-card-list> <!--le envia la info a cardlist-->
     </div>
 </div>
 

@@ -20,7 +20,7 @@ export class ByNameComponent {
     this.term = term;
 
     this.cardService.searchCard( term ) //Hace que pase el termino por el metodo search
-      .subscribe( cards => {
+      .subscribe( (cards) => {
         console.log(cards);
         this.cards = cards;
       })

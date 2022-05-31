@@ -28,8 +28,7 @@ import { CardListComponent } from './components/card-list/card-list.component';
     ByNameComponent,
     ByRaceComponent,
     ByValuesComponent,
-    SeeCardComponent,
-    InputComponent
+    SeeCardComponent
   ],
   imports: [
     CommonModule,
