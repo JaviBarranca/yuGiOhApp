@@ -8,7 +8,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class InputComponent {
 
   //permite emitir evento
-  @Output() onEnter: EventEmitter<string> = new EventEmitter();
+  @Output() onEnter : EventEmitter<string> = new EventEmitter();
 
   term: string = ''
 

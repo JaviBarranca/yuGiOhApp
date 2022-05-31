@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { YuGiOhCard } from '../../interfaces/card.interface';
+import { Datum, YuGiOhCard } from '../../interfaces/card.interface';
 
 @Component({
   selector: 'app-card-list',

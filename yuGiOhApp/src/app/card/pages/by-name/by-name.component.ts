@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { YuGiOhCard } from '../../interfaces/card.interface';
+import { Datum, YuGiOhCard } from '../../interfaces/card.interface';
 import { CardService } from '../../services/card.service';
 
 @Component({
