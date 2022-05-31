@@ -2,7 +2,8 @@
 <hr>
 <div class="row">
     <div class="col">
-        <app-input>
+        <app-input
+            (onEnter)="search( $event )">
 
         </app-input>
     </div>
@@ -13,3 +14,11 @@
         <app-card-list>[cards]="cards"</app-card-list> <!--le envia la info a cardlist-->
     </div>
 </div>
+
+
+<!--
+Con onEnter, escuchamos onEnter del input y 
+llamamos el metodo search() de by-name comp.
+Con el $event le mandamos el string producto
+de lo que manda el usuario en input.
+-->

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Card } from '../../interfaces/card.interface';
+import { YuGiOhCard } from '../../interfaces/card.interface';
 
 @Component({
   selector: 'app-card-list',
@@ -8,7 +8,7 @@ import { Card } from '../../interfaces/card.interface';
 })
 export class CardListComponent implements OnInit {
 
-  @Input() cards: Card[] = [];
+  @Input() cards: YuGiOhCard[] = [];
 
   constructor() { }
 
