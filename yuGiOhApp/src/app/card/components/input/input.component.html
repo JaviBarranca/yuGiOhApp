@@ -1,0 +1,11 @@
+<form (ngSubmit)="search()" autocomplete="off"> <!--Para que no haga sugerencias a lo que completamos-->
+    <input
+        type="text"
+        name="term"
+        class="form-control"
+        [(ngModel)]="term"
+        placeholder="Search card..."        
+    >
+</form>
+
+<!--ngsubmit es cuando presionamos enter, llama la funcion declarada-->
