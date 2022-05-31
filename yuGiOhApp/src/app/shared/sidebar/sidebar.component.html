@@ -4,23 +4,30 @@
 
     <a
     routerLink=""
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true}"
     class="list-group-item list-group-action">
     Search by Name
     </a>
     <a
     routerLink="attribute"
+    routerLinkActive="active"
     class="list-group-item list-group-action">
     Search by Attribute
     </a>
     <a
     routerLink="race"
+    routerLinkActive="active"
     class="list-group-item list-group-action">
     Serach by Race
     </a>
     <a
     routerLink="values"
+    routerLinkActive="active"
     class="list-group-item list-group-action">
     Serach by Values
     </a>
 
 </div>
+
+<!-- cada routerLink nos permite conectar con los paths definidas en AppRouting -->
