@@ -15,4 +15,9 @@ export class CardListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mostrar() {
+    console.log(this.cards)
+  }
+
+  
 }

@@ -19,5 +19,6 @@ export class CardService {
     
     return this.http.get<YuGiOhCard[]>(url);
 
+
   }
 }

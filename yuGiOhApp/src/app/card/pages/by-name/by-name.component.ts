@@ -17,12 +17,11 @@ export class ByNameComponent {
 
   search(term: string) {
 
-    this.term = term;
-
+    console.log(term)
     this.cardService.searchCard( term ) //Hace que pase el termino por el metodo search
       .subscribe( (cards) => {
+        this.cards = Object.values(cards);
         console.log(cards);
-        this.cards = cards;
       })
   }
 
